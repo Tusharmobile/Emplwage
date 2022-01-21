@@ -11,6 +11,8 @@ namespace Emplwage
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Solving Emplwage Problem");
+            EmpWage employee = new EmpWage();
+            employee.EmployeeAttendance();
             Console.ReadLine();
         }
     }
