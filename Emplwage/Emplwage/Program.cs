@@ -11,9 +11,12 @@ namespace Emplwage
         static void Main(string[] args)
         {
             Console.WriteLine("Welcom to the Employee Wage Problem");
-
-            EmpWage.computeEmpwage("DMart", 20, 2, 10);
-            EmpWage.computeEmpwage("Reliance", 10, 4, 20);
+            EmpWage dMart = new EmpWage("DMart", 20, 2, 10);
+            EmpWage reliance = new EmpWage("Reliance", 10, 4, 10);
+            dMart.computeEmpWage();
+            Console.WriteLine(dMart.toString());
+            reliance.computeEmpWage();
+            Console.WriteLine(reliance.toString());
         }
     }
 }
