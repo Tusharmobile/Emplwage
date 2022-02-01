@@ -10,10 +10,10 @@ namespace Emplwage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Solving Emplwage Problem");
-            EmpWage employee = new EmpWage();
-            employee.MonthlyEmpWage();
-            Console.ReadLine();
+            Console.WriteLine("Welcom to the Employee Wage Problem");
+
+            EmpWage.computeEmpwage("DMart", 20, 2, 10);
+            EmpWage.computeEmpwage("Reliance", 10, 4, 20);
         }
     }
 }
